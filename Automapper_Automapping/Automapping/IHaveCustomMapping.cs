@@ -1,10 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using AutoMapper;
 
 namespace Automapping
 {
-    interface IHaveCustomMapping
+    public interface IHaveCustomMapping
     {
+        void ConfigureMapping(Profile profile);
     }
 }
